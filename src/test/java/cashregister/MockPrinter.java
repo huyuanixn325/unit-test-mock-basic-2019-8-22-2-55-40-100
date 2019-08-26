@@ -8,6 +8,10 @@ public class MockPrinter extends Printer {
         return printText;
     }
 
+    public void setPrintText(String printText) {
+        this.printText = printText;
+    }
+
     @Override
     public void print(String printThis) {
         super.print(printThis);
